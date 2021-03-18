@@ -1,0 +1,47 @@
+.todoContainer {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    margin: 0.5rem 0;
+    background: rgb(255, 255, 0, 0.8);
+    border-radius: 5px;
+}
+
+.todoContainer li {
+    height: 3rem;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style: none;
+    text-align: start;
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin: 0.5rem;
+}
+
+.todoContainer .todoButton > button{
+    flex: 2;
+    justify-content: space-around;
+}
+
+.todoContainer .liCompleted {
+    text-decoration: line-through;
+    color: #066d31;
+    font-weight: 600;
+    opacity: 0.5;
+}
+
+.todoContainer .todoButtonContainer {
+
+}
+
+.todoButtonComplete {
+    color: #066d31;
+    font-size: 2rem;
+}
+
+.todoButtonDelete {
+    color: #e74c3c;
+    font-size: 2rem;
+}
